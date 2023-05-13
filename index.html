@@ -27,6 +27,31 @@ p.italic {
   </head>
   <body>
 	<img src="space.gif" alt="Image" width="500" height="300" />
+	 
+<head>
+	<title>Text Over GIF in HTML</title>
+	<style>
+		.container {
+			position: relative;
+			text-align: center;
+			color: white;
+			font-size: 36px;
+		}
+
+		.text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="space.gif" alt="GIF">
+		<div class="text">This text is over the GIF</div>
+	</div>
+</body>
 	  
    
     <h1 class="centered-text"> about me &#128214; </h1>
